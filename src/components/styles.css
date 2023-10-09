@@ -1,0 +1,149 @@
+.input {
+    display: flex;
+    width: 95%;
+    position: relative;
+    align-items: center;
+  }
+  .containerFilter {
+    width: 95%;
+    position: relative;
+    align-items: center;
+  }
+  .filter {
+    width: 95%;
+    position: relative;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+  .inputBox {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+  }
+  
+  .inputBox:focus {
+    outline: none;
+  }
+  
+  .inputSubmit {
+    width: 50px;
+    height: 58px;
+    margin: 1px;
+    right: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #6C3483;
+    color: white;
+  }
+  .inputSubmitFilter {
+    width: 50px;
+    height: 58px;
+    margin: 1px;
+    right: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: white;
+    color: #6C3483;
+  }
+  .inputSubmitFilter:hover {
+    background-color: #6C3483;
+    color: white;
+  }
+  
+  .inputSubmit:hover {
+    background-color: #6C3483;
+  }
+  
+  .inputSubmit:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5px #D7BDE2;
+  }
+  .container {
+    width: 70%;
+  }
+  
+  .task {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .taskSingle {
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #fff;
+  }
+  .details {
+    width: 80%;
+  }
+  .CardHeader {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .CardBody {
+    padding-top: 15px;
+    border-top: 2px dashed #6C3483;
+  }
+  .detailsLabel {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6C3483;
+  }
+  .detailsDescription {
+    flex: 1;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+  }
+
+  .icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #6C3483;
+  }
+
+  .containerForm {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .labelForm {
+    font-size: 18px;
+    text-align: left;
+    font-family: ui-monospace;
+  }
+  .labelFormFilter {
+    font-size: 18px;
+    text-align: right;
+    font-family: ui-monospace;
+  }
+  .button {
+    background-color: #6C3483;
+    border: none;
+  }
+  .button:hover {
+    background-color: #6C3483;
+  }
+  @media (max-width: 680px) {
+    .container {
+      width: 98%;
+    }
+    .labelFormFilter {
+      font-size: 15px;
+      text-align: left;
+    }
+    
+  }
